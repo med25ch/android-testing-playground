@@ -1,0 +1,58 @@
+# ========================
+# Gradle
+# ========================
+.gradle/
+build/
+**/build/
+
+# Gradle wrapper (keep gradlew & gradlew.bat, ignore the jar)
+gradle/wrapper/gradle-wrapper.jar
+
+# ========================
+# Android Studio / IntelliJ IDEA
+# ========================
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Keep these if you want shared run configs / code style:
+# !.idea/runConfigurations/
+# !.idea/codeStyles/
+
+# ========================
+# Local config (NEVER commit)
+# ========================
+local.properties
+keystore.properties
+*.jks
+*.keystore
+
+# ========================
+# Generated / compiled
+# ========================
+*.apk
+*.aab
+*.dex
+*.class
+*.ap_
+
+# ========================
+# OS junk
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# Lint & test outputs
+# ========================
+lint/
+*.lint.xml
+captures/
+*.hprof
+
+# ========================
+# Kotlin / Java
+# ========================
+*.kotlin_module
