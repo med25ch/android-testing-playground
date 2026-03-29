@@ -12,9 +12,6 @@ class DetermineCardColorTest {
 
     // We gonna use methodName_scenario_expectedResult
 
-    val now = System.currentTimeMillis()
-    val day = 1000 * 60 * 60 * 24
-
     companion object {
         private val now = System.currentTimeMillis()
         private const val day = 1000L * 60 * 60 * 24
