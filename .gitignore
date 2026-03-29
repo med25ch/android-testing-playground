@@ -2,23 +2,17 @@
 # Gradle
 # ========================
 .gradle/
-build/
 **/build/
-
-# Gradle wrapper (keep gradlew & gradlew.bat, ignore the jar)
-gradle/wrapper/gradle-wrapper.jar
 
 # ========================
 # Android Studio / IntelliJ IDEA
 # ========================
-.idea/
+.idea/*
+!.idea/codeStyles/
+!.idea/runConfigurations/
 *.iml
 *.iws
 *.ipr
-
-# Keep these if you want shared run configs / code style:
-# !.idea/runConfigurations/
-# !.idea/codeStyles/
 
 # ========================
 # Local config (NEVER commit)
@@ -36,6 +30,13 @@ keystore.properties
 *.dex
 *.class
 *.ap_
+
+# ========================
+# Gradle cache internals
+# ========================
+*.bin
+*.lock
+*.log
 
 # ========================
 # OS junk
